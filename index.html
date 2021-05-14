@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>Zadanie domowe #6 GOIT POLSKA</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- -----HEADER----- -->
+
+    <header class="header">
+        <div class="container">
+            <a class="main-logo link" href="./index.html"><span>Web</span>Studio</a>
+            <nav class="navigation">
+                <ul class="navigation_list list">
+                    <li class="navigation_list-item active_page">
+                        <a href="./index.html" class="navigation_list-item-link link">Agencja</a>
+                    </li>
+                    <li class="navigation_list-item ">
+                        <a href="./portfolio.html" class="navigation_list-item-link link">Portfolio</a>
+                    </li>
+                    <li class="navigation_list-item">
+                        <a href="#" class="navigation_list-item-link link">Kontakt</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <ul class="navigation_list-contact list">
+                <li class="navigation_list-item">
+                    <a href="mailto:info@devstudio.com"
+                        class="navigation_list-item-link link navigation_list-item-link-contact">
+                        <svg class="icon icon-envelope icon-header">
+                            <use xlink:href="./images/symbol-defs.svg#envelope" />
+                        </svg>info@devstudio.com</a>
+                </li>
+                <li class="navigation_list-item">
+                    <a href="tel:+48111111111" class="navigation_list-item-link link navigation_list-item-link-contact">
+                        <svg class="icon icon-smartphone icon-header">
+                            <use xlink:href=" ./images/symbol-defs.svg#smartphone" />
+                        </svg>+48 111 111 111</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- -----HERO----- -->
+
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-text">EFEKTYWNE ROZWIĄZANIA<br> DLA WASZEGO BIZNESU</h1>
+                <button class="btn-blue hero-btn" type="button" data-modal-open>Zamów usługę</button>
+            </div>
+        </section>
+
+        <!-- -----ADVANTAGE----- -->
+
+        <section class="advantage">
+            <div class="container section">
+
+                <ul class="advantage_list">
+                    <li class="advantage_list-item list">
+                        <div class="advantage_list-item-icon">
+                            <svg class="icon icon-antenna icon-advantage">
+                                <use xlink:href=" ./images/symbol-defs.svg#antenna" />
+                            </svg>
+                        </div>
+                        <h4 class="advantage_list-item-header">LOREM IPSUM</h4>
+                        <p class="advantage_list-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                        </p>
+                    </li>
+                    <li class="advantage_list-item list">
+                        <div class="advantage_list-item-icon">
+                            <svg class="icon icon-clock icon-advantage">
+                                <use xlink:href=" ./images/symbol-defs.svg#clock" />
+                            </svg>
+                        </div>
+                        <h4 class="advantage_list-item-header">LOREM IPSUM</h4>
+                        <p class="advantage_list-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                        </p>
+                    </li>
+                    <li class="advantage_list-item list">
+                        <div class="advantage_list-item-icon">
+                            <svg class="icon icon-diagram icon-advantage">
+                                <use xlink:href=" ./images/symbol-defs.svg#diagram" />
+                            </svg>
+                        </div>
+                        <h4 class="advantage_list-item-header">LOREM IPSUM</h4>
+                        <p class="advantage_list-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                        </p>
+                    </li>
+                    <li class="advantage_list-item list">
+                        <div class="advantage_list-item-icon">
+                            <svg class="icon icon-astronaut icon-advantage">
+                                <use xlink:href=" ./images/symbol-defs.svg#astronaut" />
+                            </svg>
+                        </div>
+                        <h4 class="advantage_list-item-header">LOREM IPSUM</h4>
+                        <p class="advantage_list-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- -----ABOUT-US----- -->
+
+        <section class="about">
+            <div class="container">
+
+
+                <h2 class="main-header">Czym się zajmujemy</h2>
+                <ul class="about_list-img">
+                    <li class="about_list-img-item list">
+                        <img src="./images//main/box1.jpg" alt="Aplikacje na tablety" width="370" height="294">
+                        <p class="about_list-describe">APLIKACJE KOMPUTEROWE</p>
+                    </li>
+                    <li class="about_list-img-item list"><img src="./images//main/box2.jpg" alt="Aplikacje na komputery"
+                            width="370" height="294">
+                        <p class="about_list-describe">APLIKACJE MOBILNE</p>
+                    </li>
+                    <li class="about_list-img-item list"><img src="./images//main/box3.jpg"
+                            alt="Aplikacje na urządzenia mobilne" width="370" height="294">
+                        <p class="about_list-describe">ROZWIĄZANIA GRAFICZNE</p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- -----OUR TEAM----- -->
+
+        <section class="team">
+            <div class="container section">
+
+                <h2 class="main-header">Nasz zespół</h2>
+                <ul class="team_list">
+                    <li class="team_list-item list">
+                        <img class="team_list-item-img" src="./images//main/team1.jpg" alt="Product Designer"
+                            width="270" height="260">
+                        <h5 class="list-item-header">John Doe</h5>
+                        <p class="list-item-description">Product Designer</p>
+                        <ul class="social-icon-list">
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.instagram.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-instagram social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#instagram" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.twitter.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-twitter social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#twitter" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.facebook.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-facebook social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#facebook" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.linkedin.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-linkedin social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#linkedin" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="team_list-item list">
+                        <img class="team_list-item-img" src="./images//main/team2.jpg" alt="Frontend Developer"
+                            width="270" height="260">
+                        <h5 class="list-item-header">John Doe</h5>
+                        <p class="list-item-description">Frontend Developer</p>
+                        <ul class="social-icon-list">
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.instagram.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-instagram social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#instagram" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.twitter.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-twitter social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#twitter" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.facebook.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-facebook social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#facebook" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.linkedin.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-linkedin social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#linkedin" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="team_list-item list">
+                        <img class="team_list-item-img" src="./images//main/team3.jpg" alt="Marketing" width="270"
+                            height="260">
+                        <h5 class="list-item-header">John Doe</h5>
+                        <p class="list-item-description">Marketing</p>
+                        <ul class="social-icon-list">
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.instagram.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-instagram social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#instagram" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.twitter.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-twitter social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#twitter" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.facebook.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-facebook social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#facebook" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.linkedin.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-linkedin social-icon footer-icon">
+                                        <use xlink:href=" ./images/symbol-defs.svg#linkedin" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="team_list-item list">
+                        <img class="team_list-item-img" src="./images//main/team4.jpg" alt="UI Designer" width="270"
+                            height="260">
+                        <h5 class="list-item-header">John Doe</h5>
+                        <p class="list-item-description">UI Designer</p>
+                        <ul class="social-icon-list">
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.instagram.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-instagram social-icon footer-icon">
+                                        <use xlink:href="./images/symbol-defs.svg#instagram" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.twitter.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-twitter social-icon footer-icon">
+                                        <use xlink:href="./images/symbol-defs.svg#twitter" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.facebook.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-facebook social-icon footer-icon">
+                                        <use xlink:href="./images/symbol-defs.svg#facebook" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-icon-list-item list">
+                                <a href="https://www.linkedin.com" class="social-icon-list-item-link link">
+                                    <svg class="icon icon-linkedin social-icon footer-icon">
+                                        <use xlink:href="./images/symbol-defs.svg#linkedin" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- -----CLIENTS----- -->
+
+        <section class="clients">
+            <div class="container section">
+                <h2 class="main-header">Nasi klienci</h2>
+                <ul class="clients_list list">
+                    <li class="clients_list-item">
+                        <svg class="icon icon-yaco clients-icon">
+                            <use xlink:href="./images/symbol-defs.svg#yaco" />
+                        </svg>
+                    </li>
+                    <li class="clients_list-item">
+                        <svg class="icon icon-tagline clients-icon">
+                            <use xlink:href="./images/symbol-defs.svg#tagline" />
+                        </svg>
+                    </li>
+                    <li class="clients_list-item">
+                        <svg class="icon icon-company clients-icon">
+                            <use xlink:href="./images/symbol-defs.svg#company" />
+                        </svg>
+                    </li>
+                    <li class="clients_list-item">
+                        <svg class="icon icon-foster clients-icon">
+                            <use xlink:href="./images/symbol-defs.svg#foster" />
+                        </svg>
+                    </li>
+                    <li class="clients_list-item">
+                        <svg class="icon icon-brand clients-icon">
+                            <use xlink:href="./images/symbol-defs.svg#brand" />
+                        </svg>
+                    </li>
+                    <li class="clients_list-item">
+                        <svg class="icon icon-companytagline clients-icon">
+                            <use xlink:href="./images/symbol-defs.svg#companytagline" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+    <!-- -----FOOTER----- -->
+
+    <footer class="footer">
+        <div class="container section">
+
+            <div class="footer_contact">
+                <a class="main-logo footer-logo link" href="./index.html"><span>Web</span>Studio</a>
+
+                <address class="address">
+                    <ul class="address_list">
+                        <li class="address_list-item list">m. Warszawa, Aleje jerozolimskie 21</li>
+                        <li class="address_list-item list">
+                            <a href="mailto:info@example.com"
+                                class="address_list-item-contact link">info@example.com</a></li>
+                        <li class="address_list-item list">
+                            <a href="tel:+48111111111" class="address_list-item-contact link">+48 111
+                                111
+                                111</a></li>
+                    </ul>
+                </address>
+            </div>
+
+            <div class="footer_social">
+                <p class="footer_social-header">DOŁĄCZ DO NAS</p>
+                <ul class="social-icon-list">
+                    <li class="social-icon-list-item list">
+                        <a href="https://www.instagram.com">
+                            <svg class="icon icon-instagram social-icon footer-icon">
+                                <use xlink:href="./images/symbol-defs.svg#instagram" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icon-list-item list">
+                        <a href="https://www.twitter.com">
+                            <svg class="icon icon-twitter social-icon footer-icon">
+                                <use xlink:href="./images/symbol-defs.svg#twitter" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icon-list-item list">
+                        <a href="https://www.facebook.com">
+                            <svg class="icon icon-facebook social-icon footer-icon">
+                                <use xlink:href="./images/symbol-defs.svg#facebook" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icon-list-item list">
+                        <a href="https://www.linkedin.com">
+                            <svg class="icon icon-linkedin social-icon footer-icon">
+                                <use xlink:href="./images/symbol-defs.svg#linkedin" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer_newsletter">
+                <form class="footer_newsletter-form">
+                    <p class="footer_newsletter-header">ZAPISZ SIĘ DO NEWSLETTERA</p>
+                    <div class="footer_newsletter-input">
+                        <input type="email" name="email-newsletter" class="footer_newsletter-email"
+                            placeholder="E-mail">
+                        <button type="submit" class="btn-blue footer_newsletter-btn">
+                            Zapisz się
+                            <svg class="footer_newsletter-icon">
+                                <use xlink:href="./images/symbol-defs.svg#icon-send" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- -----OKNO MODALNE----- -->
+
+    <div class="backdrop is-hidden" data-modal>
+
+        <div class="modal">
+            <div class="modal-close-btn">
+                <button type="button" class="close-btn" data-modal-close>x</button>
+            </div>
+
+            <div class="forms">
+                <form class="modal_form">
+                    <p class="form-header">Zostaw swoje dane w formularzu poniżej</p>
+                    <label for="user-name" class="modal_form-label">Imię</label>
+                    <div class="modal_form-input">
+                        <svg class="modal_form-icon">
+                            <use xlink:href="./images/symbol-defs.svg#person-black" />
+                        </svg>
+                        <input type="text" name="username" class="modal_form-input-text" id="user-name" required>
+                    </div>
+
+                    <label for="phone" class="modal_form-label">Telefon</label>
+                    <div class="modal_form-input">
+                        <svg class="modal_form-icon">
+                            <use xlink:href="./images/symbol-defs.svg#phone-black" />
+                        </svg>
+                        <input type="tel" name="phone" class="modal_form-input-text" id="phone" required>
+                    </div>
+
+                    <label for="email" class="modal_form-label">Email</label>
+                    <div class="modal_form-input">
+                        <svg class="modal_form-icon">
+                            <use xlink:href="./images/symbol-defs.svg#email-black" />
+                        </svg>
+                        <input type="email" name="email" class="modal_form-input-text" id="email" required>
+                    </div>
+
+                    <label for="comment" class="modal_form-label">Komentarz</label>
+                    <textarea name="comment" class="modal_form-input-text modal_form-textarea" id="comment"
+                        placeholder="Wprowadź tekst"></textarea>
+
+
+                    <label class="modal_form-regulations">
+                        <input type="checkbox" name="accept" class="modal_form-regulations-checkbox" required>
+                        <span class="modal_form-regulations-text">Oświadczam, iż akceptuję <a href="#"
+                                class="modal_form-regulations-link">Regulamin</a>
+                            i <a href="#" class="modal_form-regulations-link">Politykę Prywatności.</a> </span>
+                    </label>
+
+                    <button class="btn-blue modal-btn-submit" type="submit">Wyślij</button>
+
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>
