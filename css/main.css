@@ -954,12 +954,21 @@ img {
 .cards__header {
   padding: 20px 24px;
   text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .cards__description {
   padding: 0 24px;
   padding-bottom: 20px;
   text-align: left;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .description {
