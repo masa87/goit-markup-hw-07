@@ -497,7 +497,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 20px;
-  cursor: pointer;
 }
 
 .policy__checkbox {
